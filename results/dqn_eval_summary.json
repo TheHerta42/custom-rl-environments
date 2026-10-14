@@ -1,0 +1,20 @@
+{
+  "My_practice_cell11": {
+    "n": 2000,
+    "avg_reward": 132.4071,
+    "avg_steps": 226.828,
+    "avg_dots": 134.0285
+  },
+  "My_practice_cell14": {
+    "n": 2000,
+    "avg_reward": 134.056125,
+    "avg_steps": 206.1575,
+    "avg_dots": 134.374
+  },
+  "thefirst_cell13": {
+    "n": 2000,
+    "avg_reward": 121.21835,
+    "avg_steps": 360.663,
+    "avg_dots": 130.9765
+  }
+}

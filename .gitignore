@@ -1,0 +1,23 @@
+# --- Model weights ---
+# DQN weights are 150-250 MB each (saved as whole-object pickles rather than
+# state_dict), so they are not tracked. The SB3 PPO .zip files are only ~150 KB
+# each and small enough to commit if you want to ship them — uncomment to skip.
+*.pth
+# *.zip
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- NOTE: tensorboard/ directories ARE tracked ---
+# They hold the training logs the READMEs quote (about 5 MB total). Delete this
+# note and add `tensorboard/` above if you would rather not ship them.
